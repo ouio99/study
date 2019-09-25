@@ -1,0 +1,5 @@
+local --> stage --> git --> github
+      add     commit    push
+
+위로 올라가면 올라갈수록 되돌리기 힘드니
+위치 확인하는 습관 들일 것.
