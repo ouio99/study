@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+    </style>
+  </head>
+  <body>
+
+    <p> 버튼을 누르세요.</p>
+    <input type="button" name="" value="버튼1" id="imbutton">
+      <input type="button" name="" value="버튼2" id="imbutton">
+        <input type="button" name="" value="버튼3" id="imbutton">
+    <script type="text/javascript" src="example.js">
+
+  <canvas id='mycanvas' width='300px' height=200px'></canvas>
+  <script type="text/javascript" src="colorsnkjad.js">
+  </script>
+  </body>
+</html>
