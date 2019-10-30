@@ -4,19 +4,21 @@
     <meta charset="utf-8">
     <title></title>
     <style media="screen">
-
     </style>
+<script type ="text/javascript">
+    function back(a){
+        document.bgColor=a;
+    }
+</script>
   </head>
   <body>
 
-    <p> 버튼을 누르세요.</p>
-    <input type="button" name="" value="버튼1" id="imbutton">
-      <input type="button" name="" value="버튼2" id="imbutton">
-        <input type="button" name="" value="버튼3" id="imbutton">
-    <script type="text/javascript" src="example.js">
+    <h1 align> 버튼을 누르면 글자가 사라짐.</h1>
+  <form>
+    <input type="button" value="버튼1" onclick="back(this.value)"/>
+    <input type="button" value="버튼2" onclick="back(this.value)"/>
+    <input type="button" value="버튼3" onclick="back(this.value)"/><br/>
+    </form>
 
-  <canvas id='mycanvas' width='300px' height=200px'></canvas>
-  <script type="text/javascript" src="colorsnkjad.js">
-  </script>
   </body>
 </html>
